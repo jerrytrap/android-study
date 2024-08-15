@@ -49,4 +49,17 @@ A. performClick은 클릭 이벤트를 발생시키는 함수이다. 다음과 �
 - 접근성 도구가 클릭 가능 여부와 클릭시 동작을 제대로 인식하게 하기 위해서이다.
 - UI 테스트 시 performClick 함수로 클릭 동작을 시뮬레이션 하기 때문이다.    
 
-(참고) SampleCustomView 클래스처럼 구현할 수 있다.
+(참고) SampleCustomView 클래스처럼 구현할 수 있다.  
+
+---
+
+Q. background, backgroundTint, backgroundTintMode 속성의 차이는 뭘까?   
+A.
+- background: 배경으로 사용할 drawable을 지정한다. 색상만 지정할 수도 있다.
+- backgroundTint: 배경에 적용한 색상을 지정한다.
+- backgroundTintMode: 배경 색상을 어떻게 적용할지 지정한다. 기본 값은 src_over 속성이며, 배경 위에 색조가 덮이는 방식이다.   
+
+---
+
+Q. Button에 background가 제대로 적용되지 않는 이유가 무엇일까?   
+A. 호환성 때문에 제대로 적용되지 않을 수 있다고 한다. 따라서 AppCompatButton 사용을 권장한다.
