@@ -1,4 +1,4 @@
-package `2`.` widget-drawable`.challenge
+package ch2_widget_drawable.challenge
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
