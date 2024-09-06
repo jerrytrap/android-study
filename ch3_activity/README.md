@@ -33,6 +33,9 @@
     - onPause: 다른 액티비티가 시작될 때 호출된다. 더 이상 포그라운드에 있지 않으며, 오래 걸리는 작업은 하지 않아야 한다.
     - onStop: 화면에서 보이지 않을 때 호출되며, 더 이상 사용자와 상호작용할 수 없다.
     - onDestroy: 액티비티를 종료할 때 호출된다.
+- **ANR**: Application Not Responding의 약자이며, 앱의 UI 스레드가 오랫동안 차단되면 발생하는 오류이다. 
+앱이 5초 이내에 입력 이벤트에 응답하지 않는 경우에 발생한다.
+
 ## Questions
 Q. LayoutInflater.inflate 함수의 root, attachToRoot 매개변수는 어떤 역할을 할까?   
 A. root는 부모 뷰를 나타내고, attachToRoot는 부모 뷰에 자식 뷰를 추가 할지 여부를 나타낸다.   
