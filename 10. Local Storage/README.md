@@ -1,4 +1,0 @@
-## Keywords
-- Content Provider
-
-## Questions
